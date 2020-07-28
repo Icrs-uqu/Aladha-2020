@@ -78,7 +78,7 @@ function DynamicText(canv,photo,clr,x,y) {
     text_title = this.value;
    
       
-    var lineheight = 30;
+    var lineheight = 45;
 var lines = text_title.split('\n');
 
 for (var i = 0; i<lines.length; i++)
