@@ -47,7 +47,7 @@ var ctx5 = canvas5.getContext('2d');
 var img5 = new Image();
 img5.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img5,ctx5,"#376C6E",'p6.jpg',370,510));
+window.addEventListener('load', DrawPlaceholder(img5,ctx5,"#376C6E",'p6.jpg',370,530));
 
 
 
@@ -68,7 +68,7 @@ canv.drawImage(photo,0,0);
 function DrawText(canv,fillcolor) {
     canv.fillStyle = fillcolor; 
     canv.textBaseline = 'middle';
-    canv.font = "19px Almarai";
+    canv.font = "26px Amiri";
 }
 function DynamicText(canv,photo,clr,x,y) {
   document.getElementById('name').addEventListener('keyup', function() {
