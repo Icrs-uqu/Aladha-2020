@@ -5,7 +5,7 @@ var ctx = canvas.getContext('2d');
 var img = new Image();
 img.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img,ctx,"#fff",'p3.jpg',490,280));
+window.addEventListener('load', DrawPlaceholder(img,ctx,"#756134",'p3.jpg',490,280));
 
 
 var canvas1 = document.getElementById('imageCanvas1');
@@ -13,7 +13,7 @@ var ctx1 = canvas1.getContext('2d');
 var img1 = new Image();
 img1.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img1,ctx1,"#fff",'p2.jpg',230,520));
+window.addEventListener('load', DrawPlaceholder(img1,ctx1,"#fff",'p2.jpg',350,80));
 
 
 var canvas2 = document.getElementById('imageCanvas2');
